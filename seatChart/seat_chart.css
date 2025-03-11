@@ -1,0 +1,45 @@
+
+.wrapper{
+    width: 230px;
+    margin: 50px auto;
+}
+
+.seat-chart{
+    display: grid;
+    grid-template-columns: repeat(3, 70px);
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.seat{
+    width: 70px;
+    height: 40px; 
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.reserved {
+    background-color: red;
+    cursor: not-allowed;
+    color: white; /* Set the text color to white for booked seats */
+}
+
+
+.available {
+    background-color: #7FFF00; /* Light Green */
+}
+
+button{
+    width: 100%;
+    cursor: pointer;
+    margin-top: 10px; 
+    background-color: #007BFF; /* Blue */
+    color: white;
+    padding: 10px;
+
+   
+
+}
